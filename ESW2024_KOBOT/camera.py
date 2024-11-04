@@ -1,5 +1,5 @@
-from Brain.Robot_ball_distance import ball_distance
-from Brain.Robot import Robot
+from ball_distance import ball_distance
+from robot import Robot
 import cv2
 import numpy as np
 import time
