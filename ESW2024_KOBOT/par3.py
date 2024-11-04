@@ -2,10 +2,10 @@ import time
 import sys
 import cv2
 
-from Actuator.Motion import Motion
-from Sensor.Camera import Camera
-from Brain.Robot import Robot
-from Brain.Robot_calc_ball_dist import calc_ball_dist
+from motion import Motion
+from camera import Camera
+from robot import Robot
+from ball_distance import ball_distance
 
 shot_count = 0
 plain_frame_count = 0
